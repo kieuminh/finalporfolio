@@ -1,7 +1,4 @@
 import React from 'react'
-import styled from 'styled-components';
-import GitHub from '@material-ui/icons/GitHub';
-import RemoveRedEyeIcon from '@material-ui/icons/RemoveRedEye';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 
 function Menu({menuItem}) {
