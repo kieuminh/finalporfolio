@@ -4,6 +4,8 @@ import port3 from '../img/portImages/port3.png';
 import port4 from '../img/portImages/port4.png';
 import port5 from '../img/portImages/port5.png';
 import port6 from '../img/portImages/port6.png';
+import port7 from '../img/portImages/port7.png';
+import port8 from '../img/portImages/port8.png';
 
 // const portfolios = [
 //     {
@@ -120,6 +122,24 @@ export const portfolios = [
       source: 'https://github.com/kieuminh/Agency_web',
       visit: 'https://backonetemplate.netlify.app/',
       id: 5,
+    },
+    {
+      title: 'SAKURA',
+      description: "Responsive Design",
+      image: port7,
+      tags: ['Figma', 'Design','Responsive'],
+      source: 'https://www.figma.com/file/zvWIYU44lna3k25FSh4BWu/Untitled?node-id=0%3A1',
+      visit: 'https://www.figma.com/file/zvWIYU44lna3k25FSh4BWu/Untitled?node-id=0%3A1',
+      id: 6,
+    },
+    {
+      title: 'The Fuss',
+      description: "Responsive Design",
+      image: port8,
+      tags: ['Figma', 'Design','Responsive'],
+      source: 'https://www.figma.com/file/TdfMA9IXP6tTaHxLlThu2j/The-Fuss?node-id=0%3A1',
+      visit: 'https://www.figma.com/file/TdfMA9IXP6tTaHxLlThu2j/The-Fuss?node-id=0%3A1',
+      id: 7,
     },
   ];
 

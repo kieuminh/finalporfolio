@@ -1,10 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 function PrimaryButton({title}) {
     return (
         <PrimaryButtonStyled>
-            <a href="./src/img/CV_KieuTuanMinh.pdf" download> Download CV</a>
+            <Link to="/src/img/CV_KieuTuanMinh.pdf" target="_blank" download> 
+                {title}
+            </Link>
+            
         </PrimaryButtonStyled>
     )
 }
