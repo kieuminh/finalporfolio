@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import resume from '../img/resume2.png';
-import PrimaryButton from './PrimaryButton';
+// import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
     return (

@@ -1,13 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 function PrimaryButton({title}) {
     return (
         <PrimaryButtonStyled>
-            <Link to="/src/img/CV_KieuTuanMinh.pdf" target="_blank" download> 
+            {/* <Link to="/src/img/CV_KieuTuanMinh.pdf" target="_blank" download>  */}
                 {title}
-            </Link>
+            {/* </Link> */}
             
         </PrimaryButtonStyled>
     )
